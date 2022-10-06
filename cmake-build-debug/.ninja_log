@@ -1,0 +1,16 @@
+# ninja log v5
+3	656	6866117141022697	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+657	785	6866117142278562	untitled7.exe	26dc91ea7250e585
+10	244	6865979920401228	CMakeFiles/untitled7.dir/Rectangle.cpp.obj	34979be815c5dc07
+11	398	6867844110371570	build.ninja	33c0584b074f29
+3	740	6867845453071023	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+741	983	6867845455465066	untitled7.exe	26dc91ea7250e585
+3	630	6867845550961138	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+631	746	6867845552091458	untitled7.exe	26dc91ea7250e585
+5	628	6867845789804656	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+3	654	6867853926906385	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+655	785	6867853928186799	untitled7.exe	26dc91ea7250e585
+3	619	6867854148355064	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+620	737	6867854149504967	untitled7.exe	26dc91ea7250e585
+3	643	6867854254157428	CMakeFiles/untitled7.dir/main.cpp.obj	fdb2e932f66be9fb
+644	756	6867854255267166	untitled7.exe	26dc91ea7250e585
