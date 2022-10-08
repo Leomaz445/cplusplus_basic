@@ -19,7 +19,9 @@ public:
     void setImg();
     Complex operator+(Complex x);
     Complex operator-(Complex x);
-    string printComplexNum();
+//    friend Complex operator+(Complex x, Complex y);
+    friend ostream& operator<<(ostream &out,Complex &x);
+    void printComplexNum();
 };
 
 

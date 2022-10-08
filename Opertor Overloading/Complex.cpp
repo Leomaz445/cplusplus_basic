@@ -40,6 +40,18 @@ Complex Complex::operator-(Complex x) {
     return temp;
 }
 
-string Complex::printComplexNum() {
-    return to_string(this->real)+"+"+to_string(this->img)+"i";
+void Complex::printComplexNum() {
+     cout<<this->real<<"+"<<this->img<<"i"<<endl;
 }
+
+ostream &operator<<(ostream &out, Complex &x) {
+    return out<<x.real<<"+"<<x.img<<"i"<<endl;
+}
+
+//Complex operator+(Complex x, Complex y) {
+//    Complex temp;
+//    temp.real=y.real-x.real;
+//    temp.img=y.img-x.img;
+//    return temp;
+//
+//}
