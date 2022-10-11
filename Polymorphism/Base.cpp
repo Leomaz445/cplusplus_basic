@@ -4,6 +4,6 @@
 
 #include "Base.h"
 
- virtual void Base::display() {
-    cout<<"This is a display class"<<endl;
-}
+// virtual void Base::display() {
+//    cout<<"This is a display class"<<endl;
+//}

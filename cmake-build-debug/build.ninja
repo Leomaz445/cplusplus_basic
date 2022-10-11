@@ -103,6 +103,18 @@ build CMakeFiles/untitled7.dir/Polymorphism/Derive.cpp.obj: CXX_COMPILER__untitl
   OBJECT_DIR = CMakeFiles\untitled7.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled7.dir\Polymorphism
 
+build CMakeFiles/untitled7.dir/Polymorphism/ExampleTwo/Shape.cpp.obj: CXX_COMPILER__untitled7_Debug C$:/Users/PC/CLionProjects/untitled7/Polymorphism/ExampleTwo/Shape.cpp || cmake_object_order_depends_target_untitled7
+  DEP_FILE = CMakeFiles\untitled7.dir\Polymorphism\ExampleTwo\Shape.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\untitled7.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled7.dir\Polymorphism\ExampleTwo
+
+build CMakeFiles/untitled7.dir/Polymorphism/ExampleTwo/Rectangle.cpp.obj: CXX_COMPILER__untitled7_Debug C$:/Users/PC/CLionProjects/untitled7/Polymorphism/ExampleTwo/Rectangle.cpp || cmake_object_order_depends_target_untitled7
+  DEP_FILE = CMakeFiles\untitled7.dir\Polymorphism\ExampleTwo\Rectangle.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\untitled7.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled7.dir\Polymorphism\ExampleTwo
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled7
@@ -111,7 +123,7 @@ build CMakeFiles/untitled7.dir/Polymorphism/Derive.cpp.obj: CXX_COMPILER__untitl
 #############################################
 # Link the executable untitled7.exe
 
-build untitled7.exe: CXX_EXECUTABLE_LINKER__untitled7_Debug CMakeFiles/untitled7.dir/main.cpp.obj CMakeFiles/untitled7.dir/Basic_OOP_Class/Student_Class/Student.cpp.obj CMakeFiles/untitled7.dir/Opertor_Overloading/Complex.cpp.obj CMakeFiles/untitled7.dir/Inheritance/Base.cpp.obj CMakeFiles/untitled7.dir/Inheritance/Derivative.cpp.obj CMakeFiles/untitled7.dir/Polymorphism/Base.cpp.obj CMakeFiles/untitled7.dir/Polymorphism/Derive.cpp.obj
+build untitled7.exe: CXX_EXECUTABLE_LINKER__untitled7_Debug CMakeFiles/untitled7.dir/main.cpp.obj CMakeFiles/untitled7.dir/Basic_OOP_Class/Student_Class/Student.cpp.obj CMakeFiles/untitled7.dir/Opertor_Overloading/Complex.cpp.obj CMakeFiles/untitled7.dir/Inheritance/Base.cpp.obj CMakeFiles/untitled7.dir/Inheritance/Derivative.cpp.obj CMakeFiles/untitled7.dir/Polymorphism/Base.cpp.obj CMakeFiles/untitled7.dir/Polymorphism/Derive.cpp.obj CMakeFiles/untitled7.dir/Polymorphism/ExampleTwo/Shape.cpp.obj CMakeFiles/untitled7.dir/Polymorphism/ExampleTwo/Rectangle.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled7.dir

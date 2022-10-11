@@ -1,17 +1,14 @@
 #include <iostream>
-#include "Opertor Overloading/Complex.h"
-//#include "Inheritance/Base.h"
-//#include "Inheritance/Derivative.h"
-#include "Polymorphism/Derive.h"
-#include "Polymorphism/Base.h"
 
 using  namespace std;
-
+#include "Polymorphism/ExampleTwo/Shape.h"
+#include "Polymorphism/ExampleTwo/Rectangle.h"
 
 int main() {
-   Base *d1=new Derive();
-   d1->display();
-
+    Rectangle *d1= new Rectangle();
+    Shape *d2 = new Rectangle();
+    d1->perimeter();
+    d2->area();
 
 
 
